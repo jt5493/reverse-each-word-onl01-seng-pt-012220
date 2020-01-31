@@ -1,3 +1,4 @@
-def reverse_each_word("Hello there, and how are you?")
-  string.each.reverse
+def reverse_each_word(string)
+  string.each do |s|
+    string.reverse
 end
