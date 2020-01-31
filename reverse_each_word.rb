@@ -1,8 +1,8 @@
-require pry
+require "pry"
 
 def reverse_each_word(string)
   string.split(" ")
-binding_pry
+binding.pry
   string.collect do |s|
     string.reverse
   end
